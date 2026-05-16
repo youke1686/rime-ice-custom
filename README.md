@@ -42,7 +42,7 @@
 #### 手动修改：
 > 最简单，仅限雾凇拼音特定版本（2026.03.26版）
 1. 下载 [雾凇拼音（2026.03.26版）](https://github.com/iDvel/rime-ice/releases/download/2026.03.26/full.zip) 压缩包；
-2. 下载addition.zip压缩包；
+2. 下载 [addition.zip](https://github.com/youke1686/rime-ice-custom/releases/download/latest/addition.zip) 压缩包；
 3. 解压两个压缩包，用`addition.zip`中的文件替换`雾凇拼音`（full.zip）中对应文件；
 4. 右键`小狼毫`中英文切换图标，点击`用户文件夹`以打开用户文件夹；
 5. 先**清空**[^1] `用户文件夹` 内的全部文件，再将`full`文件夹中的所有文件复制进去；
@@ -51,7 +51,7 @@
 #### 使用修改程序修改：
 > 相对复杂，可以很大程度上提供雾凇拼音更加靠后的版本支持，如遇到问题可以尝试回退雾凇拼音版本
 1. 下载 [雾凇拼音（最新版）](https://github.com/iDvel/rime-ice/releases/latest/download/full.zip) 压缩包；
-2. 下载patch_build.zip压缩包（或者patch.zip未构建版本，如果你不信任我构建的exe，需要python环境）；
+2. 下载 [patch_build.zip](https://github.com/youke1686/rime-ice-custom/releases/download/1.0.0/patch_build.zip) 压缩包（或者 [patch.zip](https://github.com/youke1686/rime-ice-custom/releases/download/1.0.0/patch.zip) 未构建版本，如果你不信任我构建的exe，需要python环境）；
 3. 释放第 2 步下载的压缩包中的所有文件到任意文件夹；
 4. 释放`雾凇拼音`（full.zip）中的**所有文件**到第 3 步释放出的`full`空文件夹中，**注意不要额外嵌套文件夹**；
 5. 运行`patch.exe`（或者`patch.py`），`full`文件夹中的文件会被修改；
